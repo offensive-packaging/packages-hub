@@ -2,8 +2,8 @@ FROM golang:latest
 
 WORKDIR /app
 
-RUN git clone https://github.com/danterolle/packages-filter.git
-RUN git clone https://github.com/danterolle/packages-api.git
+RUN git clone https://github.com/offensive-packaging/packages-filter.git
+RUN git clone https://github.com/offensive-packaging/packages-api.git
 
 WORKDIR /app/packages-filter
 RUN go run ./main.go
