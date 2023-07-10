@@ -1,6 +1,6 @@
 #!/bin/bash
 
-username=danterolle
+username=offensive-packaging
 
 # Clone the two repositories
 git clone https://github.com/$username/packages-filter.git
