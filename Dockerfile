@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM golang:latest
 
 WORKDIR /app
 
